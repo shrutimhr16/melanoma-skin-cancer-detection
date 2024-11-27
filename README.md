@@ -4,8 +4,8 @@ In this assignment, you will build a multiclass classification model using a cus
 
 
 ## Table of Contents
-* [Problem statement](#general-information)
-* [Project Pipeline](#general-information)
+* [Problem statement](#problem-statement)
+* [Project Pipeline](#project-pipeline)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 
@@ -21,28 +21,28 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
 
 The data set contains the following diseases:
 
-Actinic keratosis
-Basal cell carcinoma
-Dermatofibroma
-Melanoma
-Nevus
-Pigmented benign keratosis
-Seborrheic keratosis
-Squamous cell carcinoma
-Vascular lesion
+* Actinic keratosis
+* Basal cell carcinoma
+* Dermatofibroma
+* Melanoma
+* Nevus
+* Pigmented benign keratosis
+* Seborrheic keratosis
+* Squamous cell carcinoma
+* Vascular lesion
  
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Project Pipeline
 Project Pipeline
-Data Reading/Data Understanding
-Dataset Creation
-Dataset visualisation 
-Model Building & training 
-Model Building & training on the augmented data
-Handling class imbalances
-Model Building & training on the rectified class imbalance data
+1. Data Reading/Data Understanding
+2. Dataset Creation
+3. Dataset visualisation 
+4. Model Building & training 
+5. Model Building & training on the augmented data
+6. Handling class imbalances
+7. Model Building & training on the rectified class imbalance data
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -50,12 +50,12 @@ Model Building & training on the rectified class imbalance data
 The problem of overfitting and underfitting was solved and the model was well trained for predictions. Data augmentation, outliers, and class equalization were found to be useful in improving model performance in this case.
 
 ## Technologies Used
-Python
-Tensorflow
-Keras
-Augmentor
-Matplotlib
-NumPy
+* Python
+* Tensorflow
+* Keras
+* Augmentor
+* Matplotlib
+* NumPy
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
